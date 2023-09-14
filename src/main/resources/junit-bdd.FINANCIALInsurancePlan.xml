@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="7" errors="0" failures="0"  name="262 - FINANCIAL Insurance Plan" time="0">
+  <testsuite id="0" tests="2" errors="0" failures="0"  skipped="0" name="Payor" time="0">
+    <testcase name="Sincronização de um Payor" classname="Payor"  time="0" />
+    <testcase name="Criação de um Payor sem URI" classname="Payor"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="5" errors="0" failures="0"  skipped="0" name="InsurancePlan" time="0">
+    <testcase name="Criação de um Insurance Plan sem URI" classname="InsurancePlan"  time="0" />
+    <testcase name="Sincronização de um InsurancePlan com Payor já existente na base de dados" classname="InsurancePlan"  time="0" />
+    <testcase name="Sincronização de um Insurance Plan associado a um Payor que não existe e que por sua vez tem também de ser sincronizado" classname="InsurancePlan"  time="0" />
+    <testcase name="Sincronização de um Insurance Plan associado a um Payor que não existe e que por sua vez tem também de ser sincronizado porém dá erro, então o Insurance Plan não deve ser criado na base de dados" classname="InsurancePlan"  time="0" />
+    <testcase name="Sincronização de um Insurance Plan que está presente na estrutura de erro retornada pela API" classname="InsurancePlan"  time="0" />
+  </testsuite>
+</testsuites>

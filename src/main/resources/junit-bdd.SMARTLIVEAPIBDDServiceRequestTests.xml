@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="9" errors="0" failures="2"  name="200 - SMART LIVEAPI BDD ServiceRequest Tests" time="96">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetServiceRequest_v3_TestSuite" time="0">
+    <testcase name="SmartAPI_GetServiceRequest_v3_TestSuite" classname="SmartAPI_GetServiceRequest_v3_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetServiceRequest_v5_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetServiceRequest_v5_1_TestSuite" classname="SmartAPI_GetServiceRequest_v5_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetServiceRequests_v3_TestSuite" time="0">
+    <testcase name="SmartAPI_GetServiceRequests_v3_TestSuite" classname="SmartAPI_GetServiceRequests_v3_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="3" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_Register_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_Register_v1_TestSuite" classname="SmartAPI_Register_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="4" tests="0" errors="0" failures="0"  skipped="0" name="SmartAPI_GetQRCode_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetQRCode_v1_TestSuite" classname="SmartAPI_GetQRCode_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="5" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetServiceRequest_v5_TestSuite" time="0">
+    <testcase name="SmartAPI_GetServiceRequest_v5_TestSuite" classname="SmartAPI_GetServiceRequest_v5_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="6" tests="0" errors="0" failures="0"  skipped="0" name="SmartAPI_GetAppointServiceRequests_v5_TestSuite" time="0">
+    <testcase name="SmartAPI_GetAppointServiceRequests_v5_TestSuite" classname="SmartAPI_GetAppointServiceRequests_v5_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="7" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetEncounterServiceRequests_v5_TestSuite" time="0">
+    <testcase name="SmartAPI_GetEncounterServiceRequests_v5_TestSuite" classname="SmartAPI_GetEncounterServiceRequests_v5_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="8" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_Register_v2_TestSuite" time="0">
+    <testcase name="SmartAPI_Register_v2_TestSuite" classname="SmartAPI_Register_v2_TestSuite"  time="0" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="6" errors="0" failures="0"  name="272 - SCHEDULING Schedule Services" time="0">
+  <testsuite id="0" tests="3" errors="0" failures="0"  skipped="0" name="AppointmentType" time="0">
+    <testcase name="AppointmentType Validation - Empty Code" classname="AppointmentType"  time="0" />
+    <testcase name="AppointmentType Validation - Empty Description" classname="AppointmentType"  time="0" />
+    <testcase name="Create AppointmentType" classname="AppointmentType"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="3" errors="0" failures="0"  skipped="0" name="Appointment" time="0">
+    <testcase name="Appointment Validation - Empty ExternalId" classname="Appointment"  time="0" />
+    <testcase name="Create Appointment" classname="Appointment"  time="0" />
+    <testcase name="Appointment Validation - Empty Status" classname="Appointment"  time="0" />
+  </testsuite>
+</testsuites>

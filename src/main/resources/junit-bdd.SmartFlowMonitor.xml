@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="1" errors="0" failures="0"  name="265 - SmartFlow Monitor" time="0">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="FlowMonitor" time="0">
+    <testcase name="Criação de monitor" classname="FlowMonitor"  time="0" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="0" errors="2" failures="0"  name="351 - COMPOSITION  Services" time="9">
+  <testsuite id="0" tests="0" errors="1" failures="0"  skipped="0" name="DocumentationAlerts" time="0">
+    <testcase name="Suite Error" classname="DocumentationAlerts"  time="0">
+      <failure message="Error when running suite" type="Error">
+        <![CDATA[Could not find TestSuite screen 'DocumentationAlerts_TestSuite' for eSpace 'Composition_Tests'. Exception: The remote server returned an error: (404) Not Found.]]>
+      </failure>
+    </testcase>
+    <SystemErr>
+      <![CDATA[Could not find TestSuite screen 'DocumentationAlerts_TestSuite' for eSpace 'Composition_Tests'. Exception: The remote server returned an error: (404) Not Found.]]>
+    </SystemErr>
+  </testsuite>
+  <testsuite id="1" tests="0" errors="1" failures="0"  skipped="0" name="DocumentationOutdatedAlerts" time="0">
+    <testcase name="Suite Error" classname="DocumentationOutdatedAlerts"  time="0">
+      <failure message="Error when running suite" type="Error">
+        <![CDATA[Could not find TestSuite screen 'DocumentationOutdatedAlerts_TestSuite' for eSpace 'Composition_Tests'. Exception: The remote server returned an error: (404) Not Found.]]>
+      </failure>
+    </testcase>
+    <SystemErr>
+      <![CDATA[Could not find TestSuite screen 'DocumentationOutdatedAlerts_TestSuite' for eSpace 'Composition_Tests'. Exception: The remote server returned an error: (404) Not Found.]]>
+    </SystemErr>
+  </testsuite>
+</testsuites>

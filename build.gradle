@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "gradle.plugin.com.github.gregwhitaker:gradle-gitignore-plugin:2.2.0"
+    }
+}
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.9.0'
+    id 'application'
+    id "com.github.gregwhitaker.gitignore" version "2.2.0"
+}
+
+group = 'org.rmmcosta'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+kotlin {
+    jvmToolchain(8)
+}
+
+application {
+    mainClassName = 'MainKt'
+}
+
+apply plugin: "com.github.gregwhitaker.gitignore"
+
+gitignore {
+    noAutoDetect()
+    facets = [
+            'java',
+            'idea',
+            'gradle'
+    ]
+}
+

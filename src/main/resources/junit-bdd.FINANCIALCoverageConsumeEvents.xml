@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="5" errors="0" failures="0"  name="261 - FINANCIAL Coverage Consume Events" time="1">
+  <testsuite id="0" tests="5" errors="0" failures="0"  skipped="0" name="CoverageEvent" time="0">
+    <testcase name="A informação da coverage deve ser criada com os dados que são recebidos no evento" classname="CoverageEvent"  time="0" />
+    <testcase name="Quando é recebido um evento de coverage cujo já apresenta uma data de atualização mais recente então a coverage não deve ser atualizado com a informação do evento" classname="CoverageEvent"  time="0" />
+    <testcase name="A coverage não deve ser atualizado caso já exista uma coverage tenha uma data de atualização mais recente do que a do evento" classname="CoverageEvent"  time="0" />
+    <testcase name="Permitir receção de eventos com informação parcial independentemente do que foi definido como obrigatório no recurso correspondente.Caso não tenhamos ainda a informação persistida do recurso necessária para a sua criação, o evento deverá ser enriquecido com uma chamada à API." classname="CoverageEvent"  time="0" />
+    <testcase name="Permitir receção de eventos com informação parcial independentemente do que foi definido como obrigatório no recurso correspondente.Caso não tenhamos ainda a informação persistida do recurso necessária para a sua criação, o evento deverá ser enriquecido com uma chamada à API." classname="CoverageEvent"  time="0" />
+  </testsuite>
+</testsuites>

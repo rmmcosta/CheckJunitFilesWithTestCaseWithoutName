@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="8" errors="0" failures="4"  name="259 - DIAGNOSTICS Services" time="126">
+  <testsuite id="0" tests="2" errors="0" failures="2"  skipped="0" name="ObservationRequestUnexpectedValue" time="0">
+    <testcase classname="ObservationRequestUnexpectedValue"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO que o sistema recebeu resultados de uma análise com parâmetros que não estão listados na configuração [Passed] 
+
+When
+QUANDO eu consulto resultados dessa análise [Passed] 
+
+Then
+ENTÃO esses parâmetros são apresentados na tabela E esses parâmetros ficam num grupo Desconhecido no fim da tabela [Failed] [Failed] [Failed] 
+    [Failed] Condition "Resultados de Observação criados incorretamente" is false
+    [Failed] Condition "Relatorio (Diagnostic Report) com estado Registado" is false
+    [Failed] Condition "ObservationCode desconhecido" is false
+]]>
+      </failure>
+    </testcase>
+    <testcase classname="ObservationRequestUnexpectedValue"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO que a configuração de uma análise foi alterada [Failed] [Failed] [Failed] 
+    [Failed] Condition "Resultados de Observação criados incorretamente" is false
+    [Failed] Condition "Relatorio (Diagnostic Report) com estado Registado" is false
+    [Failed] Condition "ObservationCode desconhecido" is false
+
+When
+QUANDO eu consulto resultados antigos dessa mesma análise [Skipped]
+
+Then
+ENTÃO eu vejo os resultados de acordo com a configuração que existia anteriormente [Skipped]
+]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite id="1" tests="3" errors="0" failures="2"  skipped="0" name="ObservationRequestDataCreate" time="0">
+    <testcase classname="ObservationRequestDataCreate"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE a identificação do relatório para um conjunto de observações não está presente no smartE o identificador da observação (Observation.identifier) não existe no SMARTE a service request associada à observação existe no SMART [Passed] 
+
+When
+QUANDO processo este conjunto de observações  [Passed] 
+
+Then
+ENTÂO tenho de de criar o relatório (Diagnostic Report) E o relatório (Diagnostic Report) tem o estado "registado" [Failed] [Failed] 
+    [Failed] Condition "Resultados de Observação criados incorretamente" is false
+    [Failed] Condition "Relatorio (Diagnostic Report) com estado Registado" is false
+]]>
+      </failure>
+    </testcase>
+    <testcase classname="ObservationRequestDataCreate"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE a estrutura de dados da observação e campos obrigatórios é válidaE o identificador da observação (Observation.identifier) existe no SMARTE o estado da observação é FINAL [Passed] 
+
+When
+QUANDO processo um conjunto de observações  [Passed] 
+
+Then
+ENTÃO o estado da observação é o EDITADO [Failed] [Failed] 
+    [Failed] Condition "Resultados de Observação criados incorretamente" is false
+    [Failed] Condition "Observação não foi editada" is false
+]]>
+      </failure>
+    </testcase>
+    <testcase classname="ObservationRequestDataCreate"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="3" errors="0" failures="0"  skipped="0" name="DiagnosticReportSync" time="0">
+    <testcase classname="DiagnosticReportSync"  time="0" />
+    <testcase classname="DiagnosticReportSync"  time="0" />
+    <testcase classname="DiagnosticReportSync"  time="0" />
+  </testsuite>
+</testsuites>

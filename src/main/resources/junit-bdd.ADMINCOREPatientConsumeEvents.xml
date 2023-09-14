@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="5" errors="0" failures="0"  name="252 - ADMINCORE Patient Consume Events" time="2">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="PatientEventSubscription" time="0">
+    <testcase name="Call the method to subscribe Patient events" classname="PatientEventSubscription"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="4" errors="0" failures="0"  skipped="0" name="PatientEvent" time="0">
+    <testcase name="When a Patient Event is received a new Patient should be created on the Smart Data Model" classname="PatientEvent"  time="0" />
+    <testcase name="When a Patient Event is received a new Patient should be created on the Smart Data Model" classname="PatientEvent"  time="0" />
+    <testcase name="Received a Patient Event with older information for a given Patient and that information should not be updated on the Smart Data Model" classname="PatientEvent"  time="0" />
+    <testcase name="Received a Patient Event with a Patient to be deleted on the Smart Data Model" classname="PatientEvent"  time="0" />
+  </testsuite>
+</testsuites>

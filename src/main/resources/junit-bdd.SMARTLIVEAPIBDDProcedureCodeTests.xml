@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="1" errors="0" failures="0"  name="205 - SMART LIVEAPI BDD ProcedureCode Tests" time="16">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetProcedureCode_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetProcedureCode_v1_TestSuite" classname="SmartAPI_GetProcedureCode_v1_TestSuite"  time="0" />
+  </testsuite>
+</testsuites>

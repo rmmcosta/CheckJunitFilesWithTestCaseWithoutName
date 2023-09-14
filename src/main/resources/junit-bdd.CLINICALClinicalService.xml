@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="6" errors="0" failures="0"  name="256 - CLINICAL Clinical Service" time="1">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="AllergyIntolerance" time="0">
+    <testcase name="Criar ou Actualizar uma Allergia/Intolerancia" classname="AllergyIntolerance"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="4" errors="0" failures="0"  skipped="0" name="PatientAllergy" time="0">
+    <testcase name="Criar ou Actualizar uma Patient Evaluation" classname="PatientAllergy"  time="0" />
+    <testcase name="Criar ou Actualizar uma Alergia de um Paciente" classname="PatientAllergy"  time="0" />
+    <testcase name="Actualizar numa Alergia de Paciente para errônea" classname="PatientAllergy"  time="0" />
+    <testcase name="Inativar um alergia de um paciente" classname="PatientAllergy"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="1" errors="0" failures="0"  skipped="0" name="Manifestation" time="0">
+    <testcase name="Criar ou Actualizar uma Manifestação" classname="Manifestation"  time="0" />
+  </testsuite>
+</testsuites>

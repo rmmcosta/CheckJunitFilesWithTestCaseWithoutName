@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="13" errors="0" failures="0"  name="199 - SMART LIVEAPI BDD Practitioner Tests" time="112">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitioner_v2_3_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitioner_v2_3_TestSuite" classname="SmartAPI_GetPractitioner_v2_3_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitionerRole_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitionerRole_v1_TestSuite" classname="SmartAPI_GetPractitionerRole_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitionerRole_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitionerRole_v1_1_TestSuite" classname="SmartAPI_GetPractitionerRole_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="3" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_ListPractitionerPractitionerRoles_v1_Test" time="0">
+    <testcase name="SmartAPI_ListPractitionerPractitionerRoles_v1_Test" classname="SmartAPI_ListPractitionerPractitionerRoles_v1_Test"  time="0" />
+  </testsuite>
+  <testsuite id="4" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitioner_v2_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitioner_v2_TestSuite" classname="SmartAPI_GetPractitioner_v2_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="5" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitioners_v2_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitioners_v2_1_TestSuite" classname="SmartAPI_GetPractitioners_v2_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="6" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetSignature_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetSignature_v1_TestSuite" classname="SmartAPI_GetSignature_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="7" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitioner_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitioner_v1_1_TestSuite" classname="SmartAPI_GetPractitioner_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="8" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitioners_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitioners_v1_1_TestSuite" classname="SmartAPI_GetPractitioners_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="9" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitioners_v2_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitioners_v2_TestSuite" classname="SmartAPI_GetPractitioners_v2_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="10" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitioner_v2_2_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitioner_v2_2_TestSuite" classname="SmartAPI_GetPractitioner_v2_2_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="11" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitionerRoles_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitionerRoles_v1_TestSuite" classname="SmartAPI_GetPractitionerRoles_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="12" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetPractitioner_v2_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetPractitioner_v2_1_TestSuite" classname="SmartAPI_GetPractitioner_v2_1_TestSuite"  time="0" />
+  </testsuite>
+</testsuites>

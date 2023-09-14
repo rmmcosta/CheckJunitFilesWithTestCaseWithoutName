@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="20" errors="0" failures="2"  name="253 - ADMINCORE Person Services" time="6">
+  <testsuite id="0" tests="5" errors="0" failures="0"  skipped="0" name="Practitioner" time="0">
+    <testcase name="Atualizar Perfil Practitioner" classname="Practitioner"  time="0" />
+    <testcase name="Criar Practitioner" classname="Practitioner"  time="0" />
+    <testcase name="Validar criação de Practitioner sem ExternalId" classname="Practitioner"  time="0" />
+    <testcase name="Validar criação de Practitioner sem Nome" classname="Practitioner"  time="0" />
+    <testcase name="Validar criação de Practitioner com Title" classname="Practitioner"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="1" errors="0" failures="0"  skipped="0" name="PractitionerSync" time="0">
+    <testcase name="Sincronizar um practitioner que não está presente no sistema" classname="PractitionerSync"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="2" errors="0" failures="0"  skipped="0" name="PractitionerSignatureSync" time="0">
+    <testcase name="Sincronizar a assinatura de um practioner (Obtida com sucesso via API)" classname="PractitionerSignatureSync"  time="0" />
+    <testcase name="Sincronizar a assinatura de um practioner (não obtida com sucesso via API)" classname="PractitionerSignatureSync"  time="0" />
+  </testsuite>
+  <testsuite id="3" tests="6" errors="0" failures="0"  skipped="0" name="Patient" time="0">
+    <testcase name="As admin I should be able to get the patient context if I don't have it in the database" classname="Patient"  time="0" />
+    <testcase name="As admin I should be able to get the patient context if I already have it in the database" classname="Patient"  time="0" />
+    <testcase name="As admin I should be able to inactivate a patient that is already in the database" classname="Patient"  time="0" />
+    <testcase name="Patient Validation - Empty External Id" classname="Patient"  time="0" />
+    <testcase name="Patient Validation - Empty Gender" classname="Patient"  time="0" />
+    <testcase name="Patient Validation - Empty Name" classname="Patient"  time="0" />
+  </testsuite>
+  <testsuite id="4" tests="1" errors="0" failures="0"  skipped="0" name="PatientInactivate" time="0">
+    <testcase name="Inactivate a Patient" classname="PatientInactivate"  time="0" />
+  </testsuite>
+  <testsuite id="5" tests="4" errors="0" failures="2"  skipped="0" name="PatientContext" time="0">
+    <testcase name="Sincronização de um paciente que não existe na base de dados" classname="PatientContext"  time="0" />
+    <testcase name="Sincronização de um paciente com coverages" classname="PatientContext"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+Dado que estou prestes a sincronizar o paciente BDDPatient e que possui coverage plans [Failed] 
+    [Failed] Condition "O paciente não existe na base de dados" is false
+
+When
+Quando é executada a ação GetPatientContext [Skipped]
+
+Then
+Então o paciente BDDPatient deve ser criado com a informação retornada pela APIE a coverage deve ser criada na base de dados [Skipped]
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Sincronização de um paciente inválido" classname="PatientContext"  time="0" />
+    <testcase name="Sincronização de um paciente com coverage inválida" classname="PatientContext"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+Dado que estou prestes a sincronizar o paciente BDDPatient [Failed] 
+    [Failed] Condition "O paciente não existe na base de dados" is false
+
+When
+Quando é executada a ação GetPatientContextE não é obtido uma coverage válida [Skipped]
+
+Then
+Então o paciente BDDPatient não deve ser criado com a informação retornada pela APIE a coverage não é criada na base de dados [Skipped]
+]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite id="6" tests="1" errors="0" failures="0"  skipped="0" name="PatientActivate" time="0">
+    <testcase name="Activate a Patient" classname="PatientActivate"  time="0" />
+  </testsuite>
+</testsuites>

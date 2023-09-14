@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="23" errors="0" failures="0"  name="230 - SMART LIVEAPI BDD (SmartFlow) tests" time="267">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocalWorkstations_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocalWorkstations_v1_1_TestSuite" classname="SmartAPI_GetFlowLocalWorkstations_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowTicket_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowTicket_v1_TestSuite" classname="SmartAPI_GetFlowTicket_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocalFlowTickets_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocalFlowTickets_v1_1_TestSuite" classname="SmartAPI_GetFlowLocalFlowTickets_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="3" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowWorkstationCategory_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowWorkstationCategory_v1_1_TestSuite" classname="SmartAPI_GetFlowWorkstationCategory_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="4" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowOrganizationLocals_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowOrganizationLocals_v1_1_TestSuite" classname="SmartAPI_GetFlowOrganizationLocals_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="5" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowCategory_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowCategory_v1_1_TestSuite" classname="SmartAPI_GetFlowCategory_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="6" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocalKiosks_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocalKiosks_v1_1_TestSuite" classname="SmartAPI_GetFlowLocalKiosks_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="7" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocalCategories_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocalCategories_v1_TestSuite" classname="SmartAPI_GetFlowLocalCategories_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="8" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocal_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocal_v1_TestSuite" classname="SmartAPI_GetFlowLocal_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="9" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowOrganizationLocals_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowOrganizationLocals_v1_TestSuite" classname="SmartAPI_GetFlowOrganizationLocals_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="10" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocalKiosks_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocalKiosks_v1_TestSuite" classname="SmartAPI_GetFlowLocalKiosks_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="11" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowKiosk_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowKiosk_v1_TestSuite" classname="SmartAPI_GetFlowKiosk_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="12" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowCategory_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowCategory_v1_TestSuite" classname="SmartAPI_GetFlowCategory_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="13" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowCategories_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowCategories_v1_TestSuite" classname="SmartAPI_GetFlowCategories_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="14" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocal_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocal_v1_1_TestSuite" classname="SmartAPI_GetFlowLocal_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="15" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowTicket_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowTicket_v1_1_TestSuite" classname="SmartAPI_GetFlowTicket_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="16" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowWorkstation_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowWorkstation_v1_1_TestSuite" classname="SmartAPI_GetFlowWorkstation_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="17" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowKiosk_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowKiosk_v1_1_TestSuite" classname="SmartAPI_GetFlowKiosk_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="18" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocalFlowTickets_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocalFlowTickets_v1_TestSuite" classname="SmartAPI_GetFlowLocalFlowTickets_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="19" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowWorkstationCategories_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowWorkstationCategories_v1_TestSuite" classname="SmartAPI_GetFlowWorkstationCategories_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="20" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocalWorkstations_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocalWorkstations_v1_TestSuite" classname="SmartAPI_GetFlowLocalWorkstations_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="21" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowWorkstation_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowWorkstation_v1_TestSuite" classname="SmartAPI_GetFlowWorkstation_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="22" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetFlowLocalCategories_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetFlowLocalCategories_v1_1_TestSuite" classname="SmartAPI_GetFlowLocalCategories_v1_1_TestSuite"  time="0" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="23" errors="0" failures="0"  name="131 - ADMINCORE Organization" time="2">
+  <testsuite id="0" tests="10" errors="0" failures="0"  skipped="0" name="Organization" time="0">
+    <testcase name="Criar Organização" classname="Organization"  time="0" />
+    <testcase name="Validar criação da Organização sem um ExternalId" classname="Organization"  time="0" />
+    <testcase name="Validar criação da Organização sem uma Morada" classname="Organization"  time="0" />
+    <testcase name="Validar criação da Organização sem um Nome" classname="Organization"  time="0" />
+    <testcase name="Validar criação da Organização sem um Tipo de Organização" classname="Organization"  time="0" />
+    <testcase name="Validar criação da Organização sem um Código Postal" classname="Organization"  time="0" />
+    <testcase name="Validar criação da Organização sem um Código de Unidade" classname="Organization"  time="0" />
+    <testcase name="Validar criação da Organização com um external id que já está associado a outra organização" classname="Organization"  time="0" />
+    <testcase name="Validar criação da Organização sem um Nome Abreviado" classname="Organization"  time="0" />
+    <testcase name="Validar criação da Organização com um nome abreviado que já está associado a outra organização" classname="Organization"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="8" errors="0" failures="0"  skipped="0" name="HealthCareService" time="0">
+    <testcase name="Criar um Serviço de Saúde" classname="HealthCareService"  time="0" />
+    <testcase name="Validar a criação de um serviço de saúde sem código" classname="HealthCareService"  time="0" />
+    <testcase name="Validar a criação de um serviço de saúde sem nome" classname="HealthCareService"  time="0" />
+    <testcase name="Validar a criação de um serviço de saúde sem ExternalId" classname="HealthCareService"  time="0" />
+    <testcase name="Validar a criação de um serviço de saúde com um código que já está associado a outro serviço de saúde" classname="HealthCareService"  time="0" />
+    <testcase name="Validar a criação de um serviço de saúde com um external id que já está associado a outro serviço de saúde" classname="HealthCareService"  time="0" />
+    <testcase name="Validar a criação de um serviço de saúde com um nome que já está associado a outro serviço de saúde" classname="HealthCareService"  time="0" />
+    <testcase name="Validar a criação de um serviço de saúde sem uma categoria de serviço" classname="HealthCareService"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="5" errors="0" failures="0"  skipped="0" name="HealthcareServiceSync" time="0">
+    <testcase name="Sincronização de um Serviço de Saúde cujo tipo de serviço e categoria de serviço já existem na base de dados" classname="HealthcareServiceSync"  time="0" />
+    <testcase name="Sincronização de um Serviço de Saúde cuja organização não existe na base de dados" classname="HealthcareServiceSync"  time="0" />
+    <testcase name="Sincronização de um Serviço de Saúde cuja categoria de serviço não existe na base de dados" classname="HealthcareServiceSync"  time="0" />
+    <testcase name="Sincronização de um Serviço de Saúde cujo tipo de serviço não existe na base de dados" classname="HealthcareServiceSync"  time="0" />
+    <testcase name="Sincronização de um healthcare service que está presente na estrutura de erros na resposta da API" classname="HealthcareServiceSync"  time="0" />
+  </testsuite>
+</testsuites>

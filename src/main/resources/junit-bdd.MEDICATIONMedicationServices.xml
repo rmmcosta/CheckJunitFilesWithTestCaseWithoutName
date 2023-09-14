@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="2" errors="0" failures="0"  name="271 - MEDICATION Medication Services" time="0">
+  <testsuite id="0" tests="2" errors="0" failures="0"  skipped="0" name="Medication" time="0">
+    <testcase name="Criação de um novo DCI" classname="Medication"  time="0" />
+    <testcase name="Criação de um novo Produto" classname="Medication"  time="0" />
+  </testsuite>
+</testsuites>

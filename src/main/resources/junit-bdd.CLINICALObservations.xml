@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="9" errors="0" failures="0"  name="258 - CLINICAL Observations" time="2">
+  <testsuite id="0" tests="3" errors="0" failures="0"  skipped="0" name="VitalObservation" time="0">
+    <testcase name="Cálculo IMC" classname="VitalObservation"  time="0" />
+    <testcase name="Guardar biometrias" classname="VitalObservation"  time="0" />
+    <testcase name="O doutor registado os dados do formulário do exame objectivo." classname="VitalObservation"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="3" errors="0" failures="0"  skipped="0" name="HabitsClinicalView" time="0">
+    <testcase name="Paciente sem registo de habitos" classname="HabitsClinicalView"  time="0" />
+    <testcase name="Paciente registo de habitos em consulta anterior sem alteração pelo doutor" classname="HabitsClinicalView"  time="0" />
+    <testcase name="Paciente registo de habitos em consulta anterior com alteração pelo doutor" classname="HabitsClinicalView"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="3" errors="0" failures="0"  skipped="0" name="FamilyMemberHistory" time="0">
+    <testcase name="Adicionar antecedente familiar para paciente sem resgito de antecedentes prévios" classname="FamilyMemberHistory"  time="0" />
+    <testcase name="Adicionar antecedente familiar para paciente com registo antecedente prévio" classname="FamilyMemberHistory"  time="0" />
+    <testcase name="Adicionar antecedente familiar para paciente indicado como Sem antecedentes" classname="FamilyMemberHistory"  time="0" />
+  </testsuite>
+</testsuites>

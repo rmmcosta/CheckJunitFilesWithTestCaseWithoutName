@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="15" errors="0" failures="0"  name="257 - CLINICAL Condition" time="4">
+  <testsuite id="0" tests="2" errors="0" failures="0"  skipped="0" name="Catalog" time="0">
+    <testcase name="Um novo catálogo é adicionado" classname="Catalog"  time="0" />
+    <testcase name="Criação de um novo catalogo" classname="Catalog"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="5" errors="0" failures="0"  skipped="0" name="Problems" time="0">
+    <testcase name="Doutor adiciona um novo problema" classname="Problems"  time="0" />
+    <testcase name=" Doutor adiciona um problema a consulta e o adiciona ao prontuário do paciente" classname="Problems"  time="0" />
+    <testcase name="Paciente possui um Problema no seu prontuário e o doutor o menciona" classname="Problems"  time="0" />
+    <testcase name="Doutor remove a menção a um Problema existente no prontuário do paciente" classname="Problems"  time="0" />
+    <testcase name="Doutor torna erróneo problema durante a consulta" classname="Problems"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="3" errors="0" failures="0"  skipped="0" name="Diagnosis" time="0">
+    <testcase name="Um diagnóstico é adicionado ao catalogo" classname="Diagnosis"  time="0" />
+    <testcase name="Um diagnóstico não é adicionado ao catalogo" classname="Diagnosis"  time="0" />
+    <testcase name="Doutor adiciona diagnóstico ICD10 com base na sugestão de problema adicionado previamente." classname="Diagnosis"  time="0" />
+  </testsuite>
+  <testsuite id="3" tests="5" errors="0" failures="0"  skipped="0" name="Condition" time="0">
+    <testcase name="Uma novo diagnóstico é associado ao paciente" classname="Condition"  time="0" />
+    <testcase name="Adicionar no encontro atual diagnóstico 'LEPTOSPIROSE' para paciente sem diagnósticos prévios" classname="Condition"  time="0" />
+    <testcase name="Adicionar antecedente pessoal para paciente sem registro de antecedentes prévios" classname="Condition"  time="0" />
+    <testcase name="Mencionar antecedente pessoal para paciente com registro de antecedentes prévios" classname="Condition"  time="0" />
+    <testcase name="Marcar antencedente pessoal como erroneo" classname="Condition"  time="0" />
+  </testsuite>
+</testsuites>

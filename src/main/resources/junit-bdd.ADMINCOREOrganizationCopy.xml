@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="23" errors="0" failures="0"  name="131 - ADMINCORE Organization" time="2">
+  <testsuite id="0" tests="10" errors="0" failures="0"  skipped="0" name="Organization" time="0">
+    <testcase name="" classname="Organization"  time="0" />
+  </testsuite>
+</testsuites>

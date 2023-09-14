@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="12" errors="0" failures="0"  name="251 - SHAREFOUND IntegrationError" time="1">
+  <testsuite id="0" tests="12" errors="0" failures="0"  skipped="0" name="IntegrationError" time="0">
+    <testcase name="Retry de GET com parâmetros correctos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de GET com parâmetros incorrectos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de POST com parâmetros correctos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de POST com parâmetros incorrectos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de PUT com parâmetros correctos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de PUT com parâmetros incorrectos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de DELETE com parâmetros correctos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de DELETE com parâmetros incorrectos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de PATCH com parâmetros correctos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de PATCH com parâmetros incorrectos" classname="IntegrationError"  time="0" />
+    <testcase name="Retry de sem método mas com parâmetros correctos" classname="IntegrationError"  time="0" />
+    <testcase name="Criar registo de IntegrationError com Sucesso" classname="IntegrationError"  time="0" />
+  </testsuite>
+</testsuites>

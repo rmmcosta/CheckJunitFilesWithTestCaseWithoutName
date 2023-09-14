@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="11" errors="0" failures="0"  name="195 - SMART LIVEAPI BDD Coverage Tests" time="101">
+  <testsuite id="0" tests="2" errors="0" failures="0"  skipped="0" name="SmartAPI_GetCoverages_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetCoverages_v1_1_TestSuite" classname="SmartAPI_GetCoverages_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetCoverage_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetCoverage_v1_1_TestSuite" classname="SmartAPI_GetCoverage_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="2" errors="0" failures="0"  skipped="0" name="SmartAPI_GetCoverages_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetCoverages_v1_TestSuite" classname="SmartAPI_GetCoverages_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="3" tests="2" errors="0" failures="0"  skipped="0" name="SmartAPI_GetCoveragesByPatientURI_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetCoveragesByPatientURI_v1_1_TestSuite" classname="SmartAPI_GetCoveragesByPatientURI_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="4" tests="2" errors="0" failures="0"  skipped="0" name="SmartAPI_GetCoveragesByPatientURI_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetCoveragesByPatientURI_v1_TestSuite" classname="SmartAPI_GetCoveragesByPatientURI_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="5" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetCoverage_v1_2_TestSuite" time="0">
+    <testcase name="SmartAPI_GetCoverage_v1_2_TestSuite" classname="SmartAPI_GetCoverage_v1_2_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="6" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetCoverage_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetCoverage_v1_TestSuite" classname="SmartAPI_GetCoverage_v1_TestSuite"  time="0" />
+  </testsuite>
+</testsuites>

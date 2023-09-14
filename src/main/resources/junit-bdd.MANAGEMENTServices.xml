@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="15" errors="0" failures="0"  name="270 - MANAGEMENT Services" time="4">
+  <testsuite id="0" tests="9" errors="0" failures="0"  skipped="0" name="EncounterContext" time="0">
+    <testcase name="Sincronização de um encounter cujo paciente já existe na base de dados" classname="EncounterContext"  time="0" />
+    <testcase name="Sincronização de um encounter cujo paciente não existe na base de dados e por sua vez deve ser também sincronizado" classname="EncounterContext"  time="0" />
+    <testcase name="Sincronização de um encounter cujo paciente não existe na base de dados e não é obtido com sucesso através da API" classname="EncounterContext"  time="0" />
+    <testcase name="Sincronização de um encounter cuja organização não está no sistema" classname="EncounterContext"  time="0" />
+    <testcase name="Sincronização de um encounter cujo insurance plan não existe na base de dados e por sua vez tem de ser sincronizado" classname="EncounterContext"  time="0" />
+    <testcase name="Sincronização de um encounter cujo insurance plan não existe na base de dados e não é obtido com sucesso através da API" classname="EncounterContext"  time="0" />
+    <testcase name="Sincronização de um encounter cujo serviço de saúde não existe na base de dados e por sua vez tem de ser sincronizado" classname="EncounterContext"  time="0" />
+    <testcase name="Sincronização de um encounter cujo serviço de saúde não existe na base de dados e não é obtido com sucesso através da API" classname="EncounterContext"  time="0" />
+    <testcase name="Sincronização de um encounter que está presente na estrutura de erros na resposta da API" classname="EncounterContext"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="6" errors="0" failures="0"  skipped="0" name="Encounter" time="0">
+    <testcase name="As a physician I want to be able to start an encounter so I can enter the clinical process data for a patient" classname="Encounter"  time="0" />
+    <testcase name="Encounter Validation - Empty ActualStartDateTime" classname="Encounter"  time="0" />
+    <testcase name="Encounter Validation - Empty Classification" classname="Encounter"  time="0" />
+    <testcase name="Encounter Validation - Empty ExternalId" classname="Encounter"  time="0" />
+    <testcase name="Encounter Validation - Empty Patient" classname="Encounter"  time="0" />
+    <testcase name="Encounter Validation - Empty Status" classname="Encounter"  time="0" />
+  </testsuite>
+</testsuites>

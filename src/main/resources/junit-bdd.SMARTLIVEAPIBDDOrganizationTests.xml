@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="5" errors="0" failures="0"  name="197 - SMART LIVEAPI BDD Organization Tests" time="44">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetOrganization_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetOrganization_v1_TestSuite" classname="SmartAPI_GetOrganization_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetOrganizations_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetOrganizations_v1_TestSuite" classname="SmartAPI_GetOrganizations_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetOrganization_v1_2_TestSuite" time="0">
+    <testcase name="SmartAPI_GetOrganization_v1_2_TestSuite" classname="SmartAPI_GetOrganization_v1_2_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="3" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetOrganizations_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetOrganizations_v1_1_TestSuite" classname="SmartAPI_GetOrganizations_v1_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="4" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetOrganization_v1_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetOrganization_v1_1_TestSuite" classname="SmartAPI_GetOrganization_v1_1_TestSuite"  time="0" />
+  </testsuite>
+</testsuites>

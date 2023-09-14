@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="4" errors="0" failures="0"  name="266 - SmartFlow Ticket" time="1">
+  <testsuite id="0" tests="4" errors="0" failures="0"  skipped="0" name="FlowTicket" time="0">
+    <testcase name="Criar senha" classname="FlowTicket"  time="0" />
+    <testcase name="Transferir senha" classname="FlowTicket"  time="0" />
+    <testcase name="Chamar senha" classname="FlowTicket"  time="0" />
+    <testcase name="Encerrar senha" classname="FlowTicket"  time="0" />
+  </testsuite>
+</testsuites>

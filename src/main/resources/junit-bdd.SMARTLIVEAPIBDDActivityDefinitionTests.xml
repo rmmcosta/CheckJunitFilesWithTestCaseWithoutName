@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="5" errors="0" failures="0"  name="225 - SMART LIVEAPI BDD ActivityDefinition Tests" time="47">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetActivityDefinition_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetActivityDefinition_v1_TestSuite" classname="SmartAPI_GetActivityDefinition_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetAppointment_v3_1_TestSuite" time="0">
+    <testcase name="SmartAPI_GetAppointment_v3_1_TestSuite" classname="SmartAPI_GetAppointment_v3_1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetActivityDefinition_v2_TestSuite" time="0">
+    <testcase name="SmartAPI_GetActivityDefinition_v2_TestSuite" classname="SmartAPI_GetActivityDefinition_v2_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="3" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetAppointments_v3_TestSuite" time="0">
+    <testcase name="SmartAPI_GetAppointments_v3_TestSuite" classname="SmartAPI_GetAppointments_v3_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="4" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_GetAppointment_v3_TestSuite" time="0">
+    <testcase name="SmartAPI_GetAppointment_v3_TestSuite" classname="SmartAPI_GetAppointment_v3_TestSuite"  time="0" />
+  </testsuite>
+</testsuites>

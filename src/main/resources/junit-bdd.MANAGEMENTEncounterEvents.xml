@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="5" errors="0" failures="0"  name="269 - MANAGEMENT Encounter Events" time="3">
+  <testsuite id="0" tests="5" errors="0" failures="0"  skipped="0" name="EncounterEvent" time="0">
+    <testcase name="A informação do encounter deve ser criada com os dados que são recebidos no evento" classname="EncounterEvent"  time="0" />
+    <testcase name="Quando é recebido um evento de um encounter cujo já apresenta uma data de atualização mais recente então o encounter não deve ser atualizado com a informação do evento" classname="EncounterEvent"  time="0" />
+    <testcase name="O encounter não deve ser atualizado caso o encounter tenha uma data de atualização mais recente do que a do evento" classname="EncounterEvent"  time="0" />
+    <testcase name="Permitir receção de eventos com informação parcial independentemente do que foi definido como obrigatório no recurso correspondente.Caso não tenhamos ainda a informação persistida do recurso necessária para a sua criação, o evento deverá ser enriquecido com uma chamada à API." classname="EncounterEvent"  time="0" />
+    <testcase name="Permitir receção de eventos com informação parcial independentemente do que foi definido como obrigatório no recurso correspondente.Caso não tenhamos ainda a informação persistida do recurso necessária para a sua criação, o evento deverá ser enriquecido com uma chamada à API." classname="EncounterEvent"  time="0" />
+  </testsuite>
+</testsuites>

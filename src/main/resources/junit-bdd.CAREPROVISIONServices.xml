@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="49" errors="0" failures="0"  name="255 - CAREPROVISION Services" time="7">
+  <testsuite id="0" tests="8" errors="0" failures="0"  skipped="0" name="ServiceRequest" time="0">
+    <testcase name="ServiceRequest Validação  - Administrative Group Vazia" classname="ServiceRequest"  time="0" />
+    <testcase name="ServiceRequest Validação - Priority Vazia" classname="ServiceRequest"  time="0" />
+    <testcase name="Criar ServiceRequest" classname="ServiceRequest"  time="0" />
+    <testcase name="ServiceRequest Validação - Status Vazio" classname="ServiceRequest"  time="0" />
+    <testcase name="ServiceRequest Validação - Category Vazia" classname="ServiceRequest"  time="0" />
+    <testcase name="ServiceRequest Validação  - Activity Definition Vazia" classname="ServiceRequest"  time="0" />
+    <testcase name="ServiceRequest Validação - ExecutionTime Vazia" classname="ServiceRequest"  time="0" />
+    <testcase name="Change Service Request Status" classname="ServiceRequest"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="7" errors="0" failures="0"  skipped="0" name="ServiceRequestSync" time="0">
+    <testcase name="Sincronização de um service request" classname="ServiceRequestSync"  time="0" />
+    <testcase name="Sincronização de um service request (Encounter válido)" classname="ServiceRequestSync"  time="0" />
+    <testcase name="Sincronização de um service request (Practitioner válido)" classname="ServiceRequestSync"  time="0" />
+    <testcase name="Sincronização de um service request (Healthcare Service válido)" classname="ServiceRequestSync"  time="0" />
+    <testcase name="Sincronização de um service request (Encounter inválido)" classname="ServiceRequestSync"  time="0" />
+    <testcase name="Sincronização de um service request (Practitioner inválido)" classname="ServiceRequestSync"  time="0" />
+    <testcase name="Sincronização de um service request (Healthcare Service inválido)" classname="ServiceRequestSync"  time="0" />
+  </testsuite>
+  <testsuite id="2" tests="3" errors="0" failures="0"  skipped="0" name="ServiceRequestDiagnosis" time="0">
+    <testcase name="Criar Service Request Diagnosis" classname="ServiceRequestDiagnosis"  time="0" />
+    <testcase name="ServiceRequestDiagnosis Validação - Diagnosis Vazio" classname="ServiceRequestDiagnosis"  time="0" />
+    <testcase name="ServiceRequestDiagnosis Validação - Service Request Vazio" classname="ServiceRequestDiagnosis"  time="0" />
+  </testsuite>
+  <testsuite id="3" tests="3" errors="0" failures="0"  skipped="0" name="ActivityDefAvailability" time="0">
+    <testcase name="Activity Definition Availability Validação - HCS Duplicados" classname="ActivityDefAvailability"  time="0" />
+    <testcase name="Activity Definition Availability Validação - HCS Vazio" classname="ActivityDefAvailability"  time="0" />
+    <testcase name="Criar Activity Definition Availability" classname="ActivityDefAvailability"  time="0" />
+  </testsuite>
+  <testsuite id="4" tests="8" errors="0" failures="0"  skipped="0" name="ActivityDefinition" time="0">
+    <testcase name="Criar Activity Definition" classname="ActivityDefinition"  time="0" />
+    <testcase name="Activity Definition Validação - Code Vazio" classname="ActivityDefinition"  time="0" />
+    <testcase name="Activity Definition Validação - Procedure Vazio" classname="ActivityDefinition"  time="0" />
+    <testcase name="Activity Definition Validação - Label Vazia" classname="ActivityDefinition"  time="0" />
+    <testcase name="Activity Definition Validação - Status Vazio" classname="ActivityDefinition"  time="0" />
+    <testcase name="Activity Definition Validação - Category Vazia" classname="ActivityDefinition"  time="0" />
+    <testcase name="Activity Definition Validação - Mesmo Code" classname="ActivityDefinition"  time="0" />
+    <testcase name="Activity Definition Validação - Mesma Label" classname="ActivityDefinition"  time="0" />
+  </testsuite>
+  <testsuite id="5" tests="1" errors="0" failures="0"  skipped="0" name="ActivityDefinitionAndRelations" time="0">
+    <testcase name="Criação de Activity Definitions com relações" classname="ActivityDefinitionAndRelations"  time="0" />
+  </testsuite>
+  <testsuite id="6" tests="3" errors="0" failures="0"  skipped="0" name="ActivityDefinitionBodySites" time="0">
+    <testcase name="ActivityDefinitionBodySites Validation - Empty Activity Definition" classname="ActivityDefinitionBodySites"  time="0" />
+    <testcase name="ActivityDefinitionBodySites Validation - Empty Body Site" classname="ActivityDefinitionBodySites"  time="0" />
+    <testcase name="Criar Activity Definition BodySite" classname="ActivityDefinitionBodySites"  time="0" />
+  </testsuite>
+  <testsuite id="7" tests="5" errors="0" failures="0"  skipped="0" name="Subcategory" time="0">
+    <testcase name="Subcategory Validação - Code Vazio" classname="Subcategory"  time="0" />
+    <testcase name="Subcategory Validation - Status Vazio" classname="Subcategory"  time="0" />
+    <testcase name="Subcategory Validação - Category Vazia" classname="Subcategory"  time="0" />
+    <testcase name="Create Subcategory" classname="Subcategory"  time="0" />
+    <testcase name="Subcategory Validação - Name Vazio" classname="Subcategory"  time="0" />
+  </testsuite>
+  <testsuite id="8" tests="5" errors="0" failures="0"  skipped="0" name="ActivityDefinitionTriggers" time="0">
+    <testcase name="Activity Definition Trigger Validação - Activity Vazia" classname="ActivityDefinitionTriggers"  time="0" />
+    <testcase name="Activity Definition Trigger Validação - Mesma Activity" classname="ActivityDefinitionTriggers"  time="0" />
+    <testcase name="Activity Definition Trigger Validação - Trigger Type Vazio" classname="ActivityDefinitionTriggers"  time="0" />
+    <testcase name="Activity Definition Trigger Validação - Trigger Vazio" classname="ActivityDefinitionTriggers"  time="0" />
+    <testcase name="Criar Activity Definition Trigger" classname="ActivityDefinitionTriggers"  time="0" />
+  </testsuite>
+  <testsuite id="9" tests="4" errors="0" failures="0"  skipped="0" name="Category" time="0">
+    <testcase name="Category Validação - Code Vazio" classname="Category"  time="0" />
+    <testcase name="Criar Category" classname="Category"  time="0" />
+    <testcase name="Category Validação - Status Vazio" classname="Category"  time="0" />
+    <testcase name="Category Validação - Name Vazio" classname="Category"  time="0" />
+  </testsuite>
+  <testsuite id="10" tests="1" errors="0" failures="0"  skipped="0" name="ProcedureCode" time="0">
+    <testcase name="Criar ProcedureCode" classname="ProcedureCode"  time="0" />
+  </testsuite>
+  <testsuite id="11" tests="1" errors="0" failures="0"  skipped="0" name="ActivityDefinitionList" time="0">
+    <testcase name="Listagem de Activity Definitions" classname="ActivityDefinitionList"  time="0" />
+  </testsuite>
+</testsuites>

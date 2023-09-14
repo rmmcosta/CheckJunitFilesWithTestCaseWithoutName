@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="5" errors="0" failures="0"  name="264 - SmartFlow Local" time="1">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="FlowLocal" time="0">
+    <testcase name="Criação de local" classname="FlowLocal"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="4" errors="0" failures="0"  skipped="0" name="FlowCategory" time="0">
+    <testcase name="Criação de uma categoria." classname="FlowCategory"  time="0" />
+    <testcase name="Criação de uma categoria sem código preenchido." classname="FlowCategory"  time="0" />
+    <testcase name="Criação de uma categoria sem tipo preenchido." classname="FlowCategory"  time="0" />
+    <testcase name="Criação de uma categoria sem nome preenchido." classname="FlowCategory"  time="0" />
+  </testsuite>
+</testsuites>

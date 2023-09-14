@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="1" errors="0" failures="0"  name="267 - SmartFlow Workstation" time="0">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="FlowWorkstation" time="0">
+    <testcase name="Criação de posto" classname="FlowWorkstation"  time="0" />
+  </testsuite>
+</testsuites>

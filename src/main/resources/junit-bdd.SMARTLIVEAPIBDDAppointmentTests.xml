@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="2" errors="0" failures="0"  name="211 - SMART LIVEAPI BDD Appointment Tests" time="30">
+  <testsuite id="0" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_CreateNotPlanned_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_CreateNotPlanned_v1_TestSuite" classname="SmartAPI_CreateNotPlanned_v1_TestSuite"  time="0" />
+  </testsuite>
+  <testsuite id="1" tests="1" errors="0" failures="0"  skipped="0" name="SmartAPI_CreateAppointment_v1_TestSuite" time="0">
+    <testcase name="SmartAPI_CreateAppointment_v1_TestSuite" classname="SmartAPI_CreateAppointment_v1_TestSuite"  time="0" />
+  </testsuite>
+</testsuites>

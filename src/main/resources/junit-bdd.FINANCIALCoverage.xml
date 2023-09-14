@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="7" errors="0" failures="0"  name="260 - FINANCIAL Coverage" time="1">
+  <testsuite id="0" tests="7" errors="0" failures="0"  skipped="0" name="Coverage" time="0">
+    <testcase name="Sincronização de um Coverage" classname="Coverage"  time="0" />
+    <testcase name="Sincronização de um Coverage inválido" classname="Coverage"  time="0" />
+    <testcase name="Sincronização de um Coverage válido" classname="Coverage"  time="0" />
+    <testcase name="Sincronização de um Coverage (Patient Válido)" classname="Coverage"  time="0" />
+    <testcase name="Sincronização de um Coverage (Patient Inválido)" classname="Coverage"  time="0" />
+    <testcase name="Sincronização de um Coverage (Insurance Plan Válido)" classname="Coverage"  time="0" />
+    <testcase name="Sincronização de um Coverage (Insurance Plan Inválido)" classname="Coverage"  time="0" />
+  </testsuite>
+</testsuites>

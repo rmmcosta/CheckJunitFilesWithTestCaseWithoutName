@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites tests="17" errors="0" failures="11"  name="254 - CAREPROVISION Service Request Events" time="10">
+  <testsuite id="0" tests="12" errors="0" failures="11"  skipped="0" name="ServiceRequestEvent_v5" time="0">
+    <testcase name="A informação do service request deve ser criada com os dados que são recebidos no evento" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento com timestamp X (e.g. hoje@00h03m) onde é identificado o ServiceRequest URI e o seu estado atualE a data de atualização do ServiceRequest é anterior a esta data (e.g. hoje@00h00m) [Passed] 
+
+When
+QUANDO processamos o evento recebido [Passed] 
+
+Then
+ENTÃO devemos atualizar o Service Request APENAS com a informação recebida [Failed] 
+    [Failed] Service request was not created
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Não permitir criação de um service request relacionado com um performer que não existe na base de dados e que não é possível sincronizar" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento dum service request BDDTest que não existe na base de dados relacionado com o performer do tipo BDDPractitioner que não existe na base de dados [Failed] [Failed] 
+    [Failed] Condition "Service request não existe" is false
+    [Failed] Condition "Practitioner não existe" is false
+
+When
+QUANDO processamos o evento recebidoE não conseguimos obter um Practitioner válido usando a sincronização do Practitioner (API) [Skipped]
+
+Then
+ENTÃO o practitioner BDDPractitioner não é criadoE o service request não é criadoE o evento BDDTest não é processado com sucesso [Skipped]
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Não permitir criação de um service request relacionado com um encounter que não existe na base de dados e que não é possível sincronizar" classname="ServiceRequestEvent_v5"  time="0" />
+    <testcase name="A informação do service request deve ser criada com os dados que são recebidos no evento" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+Dado que é recebido um evento com o timestamp x [Passed] 
+
+When
+Quando o evento é processado [Passed] 
+
+Then
+Então a data de atualização do ServiceRequest deve ser o timestamp X da receção do evento [Failed] 
+    [Failed] Service request was not created
+]]>
+      </failure>
+    </testcase>
+    <testcase name="A informação do service request deve ser criada com os dados que são recebidos no evento" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento com timestamp X (e.g. hoje@00h03m) onde é identificado o Service Request URI e o seu estado atualE a data de atualização do Service Request é posterior a esta data (e.g. hoje@00h05m) [Passed] 
+
+When
+QUANDO processamos o evento recebido [Failed] 
+    [Failed] Service request was not created
+
+Then
+ENTÃO não devemos atualizar o Service Request com a informação recebida [Skipped]
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Permitir criação de um service request relacionado com um paciente que já existe na base de dados" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento dum service request BDDTest que não existe na base de dados relacionado com o paciente BDDPatient que existe na base de dados [Passed] [Passed] 
+
+When
+QUANDO processamos o evento recebido [Passed] 
+
+Then
+ENTÃO o service request é criado/atualizado com a informação recebidaE o paciente BDDPatient pode ser encontrado UMA vez na base de dados [Failed] 
+    [Failed] Service request was not created
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Permitir criação de um service request relacionado com um paciente que não existe na base de dados" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento dum service request BDDTest que não existe na base de dados relacionado com o paciente BDDPatient que não existe na base de dados [Passed] [Failed] 
+    [Failed] Condition "Patient não existe" is false
+
+When
+QUANDO processamos o evento recebidoE conseguimos obter um Paciente válido usando a sincronização do Paciente (API) [Skipped]
+
+Then
+ENTÃO o paciente BDDPatient é criado com a informação recebidaE o service request é atualizado com a informação recebida [Skipped]
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Não permitir criação de um service request relacionado com um paciente que não existe na base de dados e que não é possível sincronizar" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento dum service request BDDTest que não existe na base de dados relacionado com o paciente BDDPatient que não existe na base de dados [Passed] [Failed] 
+    [Failed] Condition "Patient não existe" is false
+
+When
+QUANDO processamos o evento recebidoE não conseguimos obter um Paciente válido usando a sincronização do Paciente (API) [Skipped]
+
+Then
+ENTÃO o paciente BDDPatient não é criadoE o service request não é criadoE o evento BDDTest não é processado com sucesso [Skipped]
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Permitir criação de um service request relacionado com um encounter que já existe na base de dados" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento dum service request BDDTest que não existe na base de dados relacionado com o encounter BDDEncounter que existe na base de dados [Passed] [Passed] 
+
+When
+QUANDO processamos o evento recebido [Passed] 
+
+Then
+ENTÃO o service request é criado/atualizado apenas com a informação recebidaE o encounter BDDEncounter pode ser encontrado UMA vez na base de dados [Failed] 
+    [Failed] Service request was not created
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Permitir criação de um service request relacionado com um encounter que não existe na base de dados" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento dum service request BDDTest que não existe na base de dados relacionado com o encounter BDDEncounter que não existe na base de dados [Passed] [Failed] 
+    [Failed] Condition "Encounter não existe" is false
+
+When
+QUANDO processamos o evento recebidoE conseguimos obter um Encounter válido usando a sincronização do Encounter (API) [Skipped]
+
+Then
+ENTÃO o encounter BDDEncounter é criado com a informação recebidaE o service request é atualizado com a informação recebida [Skipped]
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Permitir criação de um service request relacionado com um performer que já existe na base de dados" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento dum service request BDDTest que não existe na base de dados relacionado com o performer do tipo Practitioner BDDPractitioner que existe na base de dados [Passed] [Passed] 
+
+When
+QUANDO processamos o evento recebido [Passed] 
+
+Then
+ENTÃO o service request é criado/atualizado apenas com a informação recebidaE o practitioner BDDPractitioner pode ser encontrado UMA vez na base de dados [Failed] 
+    [Failed] Service request was not created
+]]>
+      </failure>
+    </testcase>
+    <testcase name="Permitir criação de um service request relacionado com um performer que não existe na base de dados" classname="ServiceRequestEvent_v5"  time="0">
+      <failure message="BDD Test failed" type="BDD Test failed">
+        <![CDATA[AssertionError:
+
+Given
+DADO QUE recebemos um evento dum service request BDDTest que não existe na base de dados relacionado com o performer do tipo BDDPractitioner que não existe na base de dados [Passed] [Failed] 
+    [Failed] Condition "Practitioner não existe" is false
+
+When
+QUANDO processamos o evento recebidoE conseguimos obter um Practitioner válido usando a sincronização do Practitioner (API) [Skipped]
+
+Then
+ENTÃO o practitioner BDDPractitioner é criado com a informação recebidaE o service request é atualizado com a informação recebida [Skipped]
+]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite id="1" tests="5" errors="0" failures="0"  skipped="0" name="ServiceRequestEvent_v3" time="0">
+    <testcase name="A informação do service request deve ser criada com os dados que são recebidos no evento" classname="ServiceRequestEvent_v3"  time="0" />
+    <testcase name="A informação do service request deve ser criada com os dados que são recebidos no evento" classname="ServiceRequestEvent_v3"  time="0" />
+    <testcase name="O service request não deve ser atualizado caso o encounter tenha uma data de atualização mais recente do que a do evento" classname="ServiceRequestEvent_v3"  time="0" />
+    <testcase name="Permitir receção de eventos com informação parcial independentemente do que foi definido como obrigatório no recurso correspondente.Caso não tenhamos ainda a informação persistida do recurso necessária para a sua criação, o evento deverá ser enriquecido com uma chamada à API." classname="ServiceRequestEvent_v3"  time="0" />
+    <testcase name="Permitir receção de eventos com informação parcial independentemente do que foi definido como obrigatório no recurso correspondente.Caso não tenhamos ainda a informação persistida do recurso necessária para a sua criação, o evento deverá ser enriquecido com uma chamada à API." classname="ServiceRequestEvent_v3"  time="0" />
+  </testsuite>
+</testsuites>
